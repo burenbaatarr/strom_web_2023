@@ -1,0 +1,62 @@
+h1 {
+    font-weight: bold;
+}
+#p1 {
+    font-style: italic;
+}
+#p2 {
+    text-transform: uppercase;
+}
+.line-through {
+    text-decoration: line-through;
+}
+div p {
+    text-decoration: underline;
+}
+.links a:hover {
+     color: red;
+     font-size: 20px;
+}
+.firstletter::first-letter {
+    color: rgb(144, 68, 68);
+}
+.underline {
+    text-decoration: underline;
+}
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+.link2 li a:hover {
+    color: green;
+    font-size: 20px;
+}
+.link2 ul li:hover {
+    list-style-type: circle;
+}
+button {
+    border: 15px white solid;
+    background-color: yellow;
+    border-radius: 5px;
+
+}
+button:hover {
+    background: green;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+#clickme {
+  background-color: red;
+  color: brown;
+  border: 1px black dotted;
+  border-radius: 50px;
+
+}
+
+#clickme:active {
+   color:white; 
+   background-color: yellow;
+   border-radius: 50px;
+   border: 1px blue solid;
+}
