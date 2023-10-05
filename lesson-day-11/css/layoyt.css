@@ -16,5 +16,14 @@ body {
     top: 40px;
     left: 300px;
   }
-  
+  .tailbar {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    left: 100px;
+    top: 650px;
+  }
   
