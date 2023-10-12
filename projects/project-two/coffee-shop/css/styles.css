@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: #603601;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+}
+.navbar {
+    display: flex;
+    width: 1790px;
+    height: 70px;
+    padding: 0px 89.52px 0px 89.49px;
+    justify-content: space-between;
+    overflow: auto;
+}
+.navbar .list ul {
+    list-style: none;
+    float: right;
+}
+.navbar .list ul li a {
+    text-decoration: none;
+    color: #fff; 
+    display: block;
+    padding: 20px;
+}
+.navbar .list ul li {
+    justify-content: center;
+    align-items: flex-start;
+    gap: 19.51px;
+    align-self: stretch;
+    float: left;
+}
+.welcome {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url(../img/coffee-bar.jpg), lightgray 50% / cover no-repeat;
+}
+.content {
+    display: flex;
+    padding: 168.01px 577.33px 168.16px 577.3px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+.text {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Roboto;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+.btn-container {
+    display: flex;
+    padding: 0px 121.83px 0px 121.84px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 7.3px;
+}
+.link {
+    padding: 11.99px 30px 13.49px 30px;
+    flex-direction: column;
+    align-items: center
+}
+.btn-container .link {
+    background-color: #603601;
+    font-size: 18px;
+}
+.text #ptag {
+    font-size: 20px;
+    margin: 20px;
+}
+.about {
+    width: 1790px;
+    padding: 30px 89.49px;
+    align-items: flex-start;
+    gap: 20px;
+}
+.box-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.box-container .img {
+    /* background: url(../img/About-Image.png), lightgray 50% / cover no-repeat; */
+    width: 786px;
+    height: 786px;
+    /* flex-shrink: 0; */
+}
+/* .about h2 {
+    width: 1611.02px;
+    padding: 0px 724.915px 5px 725.105px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15.5px;
+    font-size: 40px;
+} */
+/* .box-container {
+    width: 1611.02px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 0px 40px;
+    flex-wrap: wrap;
+} */
+.about-content {
+    display: flex;
+    flex-direction: column;
+    /* width: 786px;
+    height: 313.16px; */
+     
+}
