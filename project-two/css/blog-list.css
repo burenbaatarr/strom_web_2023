@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.page {
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 1px white solid;
+}
+.navbar {
+    background: rgb(110, 110, 172);
+    text-align: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.navbar h1 {
+    color: azure;
+    padding-bottom: 10px;
+}
+
+.container ul {
+    list-style: none;
+    float: right;
+    padding-right: 630px;
+    margin: 5px;
+}
+.container ul li {
+    float: left;
+}
+.container ul li a {
+    text-decoration: none;
+    color: azure;
+    padding: 5px;
+   
+}
+.navbar p {
+    color: rgb(200, 197, 197);
+}
+.bloglist1 {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 20px;
+    overflow: auto;
+}
+
+.introduction {
+    border-top: 1px solid rgb(195, 193, 193);
+}
+.introduction #textcolor {
+    color: rgb(216, 216, 245);
+}
+.introduction #css {
+    border: 1px white solid;
+    background-color: green;
+    color: white;
+}
+.introduction #html {
+    border: 1px white solid;
+    background-color: rgb(73, 73, 171);
+    color: white;
+}
+.introduction h1 {
+    padding-top: 20px;
+}
+
+/* introduction section  */
+
+.article-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-title img {
+    border-radius: 50%;
+}
+.introduction #javascript {
+    border: 1px solid white;
+    background: red;
+    color: white;
+}
