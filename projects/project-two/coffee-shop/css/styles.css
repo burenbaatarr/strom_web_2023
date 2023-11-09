@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  max-width: 1790px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #603601;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+.header-description {
+  text-align: center;
+  font-size: 40px;
+}
+
+.navbar {
+  display: flex;
+  width: 1790px;
+  height: 70px;
+  padding: 0px 89.52px 0px 89.49px;
+  justify-content: space-between;
+  overflow: auto;
+}
+.navbar #logo {
+  background-color: #603601;
+}
+.navbar .list ul {
+  list-style: none;
+  float: right;
+}
+.navbar .list ul li a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 20px;
+}
+.navbar .list ul li {
+  justify-content: center;
+  align-items: flex-start;
+  gap: 19.51px;
+  align-self: stretch;
+  float: left;
+}
+.welcome {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url(../img/coffee-bar.jpg), lightgray 50% / cover no-repeat;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+.text {
+  color: #fff;
+
+  text-align: center;
+  font-family: Roboto;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.btn-container {
+  display: flex;
+  padding: 0px 121.83px 0px 121.84px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 7.3px;
+}
+.link {
+  padding: 11.99px 30px 13.49px 30px;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-container .link {
+  background-color: #603601;
+  font-size: 18px;
+}
+.text #ptag {
+  font-size: 20px;
+  margin: 20px;
+}
+.about {
+  padding: 30px 89.49px;
+  align-items: flex-start;
+  gap: 20px;
+}
+.box-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: Roboto;
+}
+.box-container .img {
+  width: 786px;
+  height: 786px;
+  padding-top: 20px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  height: 313.16;
+  margin: 80px 40px;
+}
+.about #header2 {
+  flex-direction: column;
+  align-items: center;
+  gap: 15.5px;
+  font-size: 40px;
+}
+.box-container #content-h2 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  margin: 20px;
+}
+.box-container h5 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px; /* 150% */
+}
+.box-container p {
+  color: #666;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.8px; /* 180% */
+}
+.box-container .about-link {
+  background-color: #603601;
+  padding: 12px 30.56px 13.48px 30px;
+  color: white;
+  width: 200px;
+  margin: 20px;
+}
+.services {
+  display: flex;
+  padding: 30px 89.49px;
+  flex-direction: column;
+  gap: 19.99px;
+  margin-top: 20px;
+}
+.service-content .service-item {
+  display: inline-block;
+  flex-flow: column wrap;
+}
+.service-content .service-item .service-text {
+  display: flex;
+  width: 395.25px;
+  padding: 21px 20px 20.47px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9.5px;
+}
+#coffee {
+  display: flex;
+  width: 1790px;
+  padding: 30px 89.49px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu .content .menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .menu-btn .button {
+  padding: 11px 25px 9.75px 25px;
+  margin: 20px;
+  background: #603601;
+  border-radius: 50px;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+#coffee {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+.menu-item {
+  width: 395.25px;
+  padding: 20px;
+}
+
+.menu-item .intro {
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.menu-item .money {
+  color: #c69b7b;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.products .products-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.products-container .product-item .products-header {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.products-container .product-item .rating {
+  text-align: center;
+}
+.products-container .product-item .rating .symbols {
+  color: #c69b7b;
+  text-align: center;
+  font-family: Font Awesome 5 Free;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 14px; 
+}

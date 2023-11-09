@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+.div1 {  
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    max-width: 1000px;
+    
+    
+    background-color: aqua;
+}
+.div2 {
+    border: 1px solid black;
+    max-width: 300px;
+    display: block;
+    background-color: pink;
+    padding: 20px;
+    margin: 20px;
+   
+}
+.div3 {
+    
+    border: 1px solid black;
+    max-width: 300px;
+    display: block;
+    background: yellow;
+    padding: 20px;
+    margin: 20px;
+  
+}

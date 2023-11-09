@@ -1,0 +1,88 @@
+table {
+  width: 700px;
+}
+
+td th {
+  text-align: left;
+  padding: 7px 10px;
+}
+.table2 {
+  margin: auto;
+  background: #fbffdc;
+}
+.table2 th {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+.table3 {
+  margin: auto;
+}
+.table3 th {
+  padding: 5px;
+  border-top: 1px solid #c3edc0;
+  border-bottom: 2px solid #aac8a7;
+}
+.table3 td {
+  padding: 5px;
+  text-align: center;
+  border-top: 1px solid #c3edc0;
+}
+.name {
+  text-align: left;
+}
+img {
+  width: 50px;
+  height: 50px;
+}
+.table4 {
+  border-top: 2px solid #f7c8e0;
+  border-bottom: 1px solid #ffdeb4;
+}
+.even {
+  color: #f8e8ee;
+}
+.odd {
+  color: #faf3f0;
+}
+
+#table5 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: right;
+  }
+  
+  #table5 td, #table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+ 
+  #table5 tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #table5 tr:hover {background-color: #ddd;}
+  
+  #table5 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+  }
+  #table5 .tododgoh {
+    color: #aac8a7;
+  }
+  #nomer {
+    text-align: left;
+  }
+  
+  
+ .table6 td {
+    border: 1px solid rgb(203, 34, 158);
+   
+    padding: 15px;
+   
+ }
+ .table {
+    background: darkcyan;
+    empty-cells: hidden;
+ }
