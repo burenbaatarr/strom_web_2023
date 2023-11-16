@@ -68,35 +68,7 @@ header {
   height: 4063px;
 }
 /* slide images */
-.slide {
-  margin-top: 20px;
-  margin-left: 71.5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
 
-.slide button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 47px;
-  height: 47px;
-  line-height: 47px;
-  border: 2px solid white;
-  border-radius: 50%;
-  text-align: center;
-}
-.slide #left {
-  left: 195px;
-}
-.slide #right {
-  right: 195px;
-}
-.slide-nav .image-container img {
-  width: 1287px;
-  height: 486px;
   
 } 
 .slide-nav .image-container {
