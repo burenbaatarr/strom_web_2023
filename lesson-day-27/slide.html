@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/slide.css">
+    <title>slide3 dasgal3</title>
+</head>
+<body>
+    <button id="openBtn" onclick="openForm()">open form</button>
+    <div class="popup-form" id="my-Form">
+        <h2>popup form</h2>
+        <form action="#" class="form-container">
+        <label for="name"><b>name</b></label>
+        <input type="text" placeholder="enter your name" name="name" required>
+        
+        <label for="email"><b>email</b></label>
+        <input type="email" placeholder="enter your email" name="email" required>
+
+        <button type="submit" class="submit-btn">submit</button>
+        <button type="submit" class="close-btn" onclick="closeForm()">close</button>
+
+    </form>
+    </div>
+    <script src="./js/slide.js"></script>
+</body>
+</html>

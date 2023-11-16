@@ -25,7 +25,20 @@
         </ul>
 
         <!-- baruun taliin heseg -->
-        <img src="img/logo.svg" alt="" />
+        <img src="img/logo.svg" alt="" id="logo" />
+        <button onclick="showPopup()"><img src="img/logo.svg" alt="" id="logo" /></button>
+
+    <div class="popup" id="myPopup">
+        <span class="close-button" onclick="hidePopup()">&times;</span>
+        <form id="myForm">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
       </header>
       <section class="heading">
         <div class="content">
@@ -47,15 +60,18 @@
       </section>
       <section class="slide">
         
-        <button id="left"> < </button>
-        <div class="slide-nav">
-         <div class="image-container">
-          <img src="./img/pic-1.jpg" alt="photo1" />
-          <img src="./img/pic-2.jpg" alt="photo2">
-          <img src="./img/pic-3.jpg" alt="photo3">
-        </div>
-        </div>
-        <button id="right"> > </button>
+        
+        <div class="slider">
+          <img src="./img/pic-1.jpg" alt="Image 1" class="active">
+          <img src="./img/pic-2.jpg" alt="Image 2">
+          <img src="./img/pic-3.jpg" alt="Image 3">
+          <img src="./img/pic-4.jpg" alt="Image 4">
+          <div class="slide-nav">
+              <button onclick="prevImage()"><</button>
+              <button onclick="nextImage()">></button>
+          </div>
+      </div>
+  
       </section>
 
       <section class="about">
@@ -382,16 +398,11 @@
 
 
       </footer>
- 
-   
-
-
-
-
 
 
     </div>
 
     <script src="js/app.js"></script>
+    
   </body>
 </html>
