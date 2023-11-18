@@ -18,10 +18,24 @@
         <!-- dund taliin menu -->
 
         <ul class="menu">
-          <li><a href="home">home</a></li>
-          <li><a href="about">about</a></li>
-          <li><a href="link">link</a></li>
-          <li><a href="contact">contact</a></li>
+          <li><a href="home" id="headercolor">home</a></li>
+          <li class="dropdown">
+            <a href="about" id="headercolor">about</a>
+            <div class="dropdown-content">
+              <a href="#">about us</a>
+              <a href="#">our team</a>
+              <a href="#">services</a>
+              <a href="#">contact us</a>
+          </div>
+          </li>
+          <li class="dropdown">
+            <a href="link" id="headercolor">link</a>
+            <div class="dropdown-content">
+              <a href="#">services page</a>
+              <a href="#">about us page</a>
+              <a href="#">contact us page</a>
+          </li>
+          <li><a href="contact" id="headercolor">contact</a></li>
         </ul>
 
         <!-- baruun taliin heseg -->
@@ -30,12 +44,21 @@
 
     <div class="popup" id="myPopup">
         <span class="close-button" onclick="hidePopup()">&times;</span>
+        
+        <h1 id="popup-header">signup</h1>
+        <p>register with us to get offers</p>
+       
         <form id="myForm">
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname"><br><br>
-            <input type="submit" value="Submit">
+            <label for="fname">Name</label><br>
+            <input type="text" id="fname" name="fname" placeholder="enter name"><br><br>
+            <label for="lname">Email</label><br>
+            <input type="text" id="lname" name="lname" placeholder="enter email"><br><br>
+            <label for="lname">password</label><br>
+            <input type="text" id="lname" name="lname" placeholder="enter password"><br><br>
+            <label for="lname">confirm password</label><br>
+            <input type="text" id="lname" name="lname" placeholder="confirm password"><br><br>
+
+            <input type="submit" value="Submit" id="popup-submit">
         </form>
     </div>
 
