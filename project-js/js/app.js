@@ -16,6 +16,7 @@ function prevImage() {
 
 nextImage();
 setInterval(nextImage, 5000);
+
 document.addEventListener('DOMContentLoaded', function(){
     let dropDown = document.querySelector('.dropdown');
     dropDown.addEventListener('mouseover', function(){
@@ -39,9 +40,7 @@ function hidePopup() {
 }
 
 document.getElementById("myForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent form submission
+    event.preventDefault(); 
 
-    // Your form data handling and validation code here
-
-    hidePopup(); // Hide the pop-up form after form submission
+    hidePopup(); 
 });

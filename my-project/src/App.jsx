@@ -11,10 +11,12 @@ function App() {
         <div className="flex flex-col w-full">
             <Header />
             <Body />
+          
             <Footer />
+
         </div>
     </div>
 );
 }
 
-export default App
+export default App;
